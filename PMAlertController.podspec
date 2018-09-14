@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/pmusolino"
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Codeido/PMAlertController.git", :tag => s.version }
-  s.source_files  = "Library/**/*"
+  s.source_files  = "Library/**/*.swift"
   s.resource_bundles = {
     'PMAlertController' => ['Library/Resources/*.png', 'Library/**/*.xib']
   }
